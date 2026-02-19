@@ -3,59 +3,98 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="stylesheet.css" />
     <title>Landing Page</title>
   </head>
   <body>
     <header>
       <div class="header-logo">
-        <img src="" alt="Header Logo" />
+        <p>Header Logo</p>
       </div>
       <div class="header-links">
         <ul>
-          <li>Header Link 1</li>
-          <li>Header Link 2</li>
-          <li>Header Link 3</li>
+          <li><a href="index.html">Header Link 1</a></li>
+          <li><a href="index.html">Header Link 2</a></li>
+          <li><a href="index.html">Header Link 3</a></li>
         </ul>
       </div>
     </header>
     <div class="hero">
-      <div class="hero-left">
-        <h1>This website is awesome</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, nemo!
-        </p>
-        <button>Sign Up</button>
+      <div class="hero-content">
+        <div class="hero-left">
+          <h1>This website is awesome</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde
+            accusamus obcaecati veniam autem sequi hic velit, temporibus
+            reiciendis suscipit deserunt dicta nisi atque ad deleniti!
+          </p>
+          <button>Sign Up</button>
+        </div>
+        <div class="hero-right">
+          <img
+            src="https://images.pexels.com/photos/992734/pexels-photo-992734.jpeg"
+            alt="The hero image"
+          />
+        </div>
       </div>
-      <img src="" alt="The hero image" />
     </div>
     <div class="info">
-      <div class="info-card">
-        <img src="" alt="" />
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur,
-          dolore.
-        </p>
-      </div>
-      <div class="info-card">
-        <img src="" alt="" />
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur,
-          dolore.
-        </p>
-      </div>
-      <div class="info-card">
-        <img src="" alt="" />
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur,
-          dolore.
-        </p>
-      </div>
-      <div class="info-card">
-        <img src="" alt="" />
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur,
-          dolore.
-        </p>
+      <h2>Some random information.</h2>
+      <div class="info-cards-wrapper">
+        <div class="info-card">
+          <div class="info-img-wrapper">
+            <img
+              src="https://images.pexels.com/photos/3761178/pexels-photo-3761178.jpeg"
+              alt="First picture of the horizon"
+            />
+          </div>
+          <div class="info-text">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla,
+            atque.
+          </div>
+        </div>
+        <div class="info-card">
+          <div class="info-img-wrapper">
+            <img
+              src="https://images.pexels.com/photos/694587/pexels-photo-694587.jpeg"
+              alt="Second picture of the horizon"
+            />
+          </div>
+          <div class="info-text">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla,
+            atque.
+          </div>
+        </div>
+        <div class="info-card">
+          <div class="info-img-wrapper">
+            <img
+              src="https://images.pexels.com/photos/848573/pexels-photo-848573.jpeg"
+              alt="Third picture of the horizon"
+            />
+          </div>
+          <div class="info-text">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla,
+            atque.
+          </div>
+        </div>
+        <div class="info-card">
+          <div class="info-img-wrapper">
+            <img
+              src="https://images.pexels.com/photos/1683492/pexels-photo-1683492.jpeg"
+              alt="Third picture of the horizon"
+            />
+          </div>
+          <div class="info-text">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla,
+            atque.
+          </div>
+        </div>
       </div>
     </div>
     <div class="quote">
@@ -69,12 +108,14 @@
     <div class="cta">
       <div class="cta-box">
         <div class="left">
-          <h3></h3>
-          <p></p>
+          <p class="cta-header">Call to action! It's time!</p>
+          <p class="cta-subtext">
+            Sign up for our product by clicking our button right over there!
+          </p>
         </div>
         <button>Sign Up</button>
       </div>
     </div>
-    <footer><p></p></footer>
+    <footer><p>Copyright ©️ The Odin Project 2021</p></footer>
   </body>
 </html>
