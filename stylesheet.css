@@ -184,7 +184,7 @@ header,
 
 .cta {
   height: 20vh;
-  min-height: 480px;
+  min-height: 240px;
   width: 100vw;
   padding: 0 15%;
   display: flex;
